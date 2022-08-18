@@ -1,0 +1,17 @@
+﻿  rnamc.cpp
+  tnam.cpp
+  tnammath.cpp
+  verticalpriority.cpp
+  cv.cpp
+  diagonalpriority.cpp
+  diagonalprioritya.cpp
+  horizontalpriority.cpp
+  mainwindow.cpp
+  main.cpp
+  qrc_mainwindow.cpp
+  moc_mainwindow.cpp
+rnamc.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::rectangle(class cv::_InputOutputArray const &,class cv::Point_<int>,class cv::Point_<int>,class cv::Scalar_<double> const &,int,int,int)" (?rectangle@cv@@YAXAEBV_InputOutputArray@1@V?$Point_@H@1@1AEBV?$Scalar_@N@1@HHH@Z)，函数 "protected: void __cdecl NAM::RNAMC::rnamc(class cv::Mat const *,class cv::Mat &,class cv::Mat &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,int const &,int const &)" (?rnamc@RNAMC@NAM@@IEAAXPEBVMat@cv@@AEAV34@1AEAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@AEBH3@Z) 中引用了该符号
+tnam.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::line(class cv::_InputOutputArray const &,class cv::Point_<int>,class cv::Point_<int>,class cv::Scalar_<double> const &,int,int,int)" (?line@cv@@YAXAEBV_InputOutputArray@1@V?$Point_@H@1@1AEBV?$Scalar_@N@1@HHH@Z)，函数 "public: static void __cdecl NAM::TNAM::decode(class cv::Mat &,class cv::Mat &,class std::vector<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > > const &,class std::vector<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > > const &,class std::vector<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > > const &,class std::vector<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > > const &,class std::vector<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > > &)" (?decode@TNAM@NAM@@SAXAEAVMat@cv@@0AEBV?$vector@V?$vector@HV?$allocator@H@std@@@std@@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@std@@111AEAV56@@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "bool __cdecl cv::imwrite(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::_InputArray const &,class std::vector<int,class std::allocator<int> > const &)" (?imwrite@cv@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV_InputArray@1@AEBV?$vector@HV?$allocator@H@std@@@3@@Z)，函数 "private: void __cdecl MainWindow::on_pushButton_green_clicked(void)" (?on_pushButton_green_clicked@MainWindow@@AEAAXXZ) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::cvtColor(class cv::_InputArray const &,class cv::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@HH@Z)，函数 "private: void __cdecl MainWindow::on_pushButton_green_clicked(void)" (?on_pushButton_green_clicked@MainWindow@@AEAAXXZ) 中引用了该符号
+D:\C++\code\Final\MainWindow\x64\Release\MainWindow.exe : fatal error LNK1120: 4 个无法解析的外部命令
