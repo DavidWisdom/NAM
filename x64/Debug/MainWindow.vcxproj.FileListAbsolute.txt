@@ -1,2 +1,0 @@
-D:\C++大作业\code\Final\MainWindow\x64\Debug\MainWindow.exe
-D:\C++\code\Final\MainWindow\x64\Debug\MainWindow.exe
